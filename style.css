@@ -1,0 +1,582 @@
+*{
+    margin: 0;
+}
+.wrap{
+    margin: 0 auto;
+    max-width: 1170px;
+}
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3,h4,h5,h6,input,button{
+  font-family: 'Montserrat', sans-serif;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0;
+    list-style: none;
+}
+.clear:after
+{
+    clear: both;
+    
+}
+.clear:before,
+.clear:after{
+    content: "";
+    display: table;
+}
+@font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 900;
+    src: url("fonts/fa-solid-900.eot");
+    src: url("fonts/fa-solid-900.eot?#iefix") format("embedded-opentype"), 
+    url("fonts/fa-solid-900.woff2") format("woff2"), 
+    url("fonts/fa-solid-900.woff") format("woff"), 
+    url("fonts/fa-solid-900.ttf") format("truetype"), 
+    url("fonts/fa-solid-900.svg#fontawesome") format("svg"); }
+  
+  .fa,
+  .fas {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900; 
+  }
+    @font-face {
+    font-family: 'Font Awesome 5 Brands';
+    font-style: normal;
+    font-weight: normal;
+    src: url("fonts/fa-brands-400.eot");
+    src: url("fonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), 
+    url("fonts/fa-brands-400.woff2") format("woff2"), 
+    url("fonts/fa-brands-400.woff") format("woff"), 
+    url("fonts/fa-brands-400.ttf") format("truetype"), 
+    url("fonts/fa-brands-400.svg#fontawesome") format("svg"); }
+  
+  .fab {
+    font-family: 'Font Awesome 5 Brands'; 
+  }
+  
+  
+  
+  @font-face {
+    font-family: 'Font Awesome 5 Free';
+    font-style: normal;
+    font-weight: 400;
+    src: url("fonts/fa-regular-400.eot");
+    src: url("fonts/fa-regular-400.eot?#iefix") format("embedded-opentype"), 
+    url("fonts/fa-regular-400.woff2") format("woff2"), 
+    url("fonts/fa-regular-400.woff") format("woff"), 
+    url("fonts/fa-regular-400.ttf") format("truetype"), 
+    url("fonts/fa-regular-400.svg#fontawesome") format("svg"); }
+  
+  .far {
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 400; 
+  }
+
+
+.navigation .nav-list li a i{
+    display: block;
+    font-size: 25px;
+    padding-top: 15px;
+}
+.home{
+  margin-left: 120px;
+  text-align: center;
+  padding: 100px 0px;
+  min-height: 460px;
+  background-image: url(images/adult-anger.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.home h1{
+  font-size: 70px;
+  color: #fff;
+}
+.home .describe{
+  font-size: 15px;
+  color: #fff;
+}
+.about{
+  margin-left: 120px;
+  padding: 100px 0px;
+  background-color: #000;
+}
+.content{
+  width: 80%;
+  display: table;
+  margin: 0 auto;
+}
+.about h2{
+  margin-bottom: 25px;
+  font-weight: 400;
+  padding: 15px 0px;
+  font-size: 35px;
+  padding-right: 25px;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  display: inline-block;
+}
+.about .abt-text{
+  color: #fff;
+  font-size: 14px;
+  color: #757575;
+  line-height: 20px;
+  margin-bottom: 60px;
+}
+.about .skill{
+  margin-bottom: 50px;
+}
+.about .skill .heading{
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+.about .skill li p{
+  color: #757575;
+  font-size: 15px;
+  margin-bottom: 25px;
+}
+.about .skill li .white{
+  width: 100%;
+  height: 25px;
+  background-color: #fff;
+  margin-bottom: 25px;
+}
+.about .skill li .php{
+  width: 85%;
+  height: 25px;
+  background-color: #757575;
+}
+.about .skill li .design{
+  width: 75%;
+  height: 25px;
+  background-color: #757575;
+}
+.about .skill li .photoshop{
+  width: 80%;
+  height: 25px;
+  background-color: #757575;
+}
+.about .overall{
+  margin-bottom: 50px;
+}
+.about .overall li{
+  float: left;
+  display: table;
+  margin: 0 auto;
+  width: 25%;
+  text-align: center;
+  color: #000;
+  background-color: #f1f1f1;
+  padding: 35px 0px;
+  margin-bottom: 70px;
+}
+.about .overall li .number{
+  font-size: 25px;
+}
+.about .overall li .num-txt{
+  font-size: 15px;
+}
+.about .download a{
+  padding: 25px 15px;
+  background-color: #f1f1f1;
+  color: #000;
+  font-size: 15px;
+  transition: 0.2s ease-in-out;
+  -moz-transition:0.2s ease-in-out;
+  -o-transition:0.2s ease-in-out;
+}
+.about .download a:hover{
+  opacity: 0.6;
+}
+.about .download{
+  margin-bottom: 60px;
+}
+.about .price .heading{
+  color: #fff;
+  font-size: 25px;
+  margin-bottom: 35px;
+}
+.about .price li{
+  width: 48%;
+  float: left;
+  margin-right: 2%;
+  display: table;
+  background-color: #fff;
+  opacity: 0.4;
+  text-align: center;
+  transition: 0.5s ease-in-out;
+  -moz-transition:0.5s ease-in-out;
+  -o-transition:0.5s ease-in-out;
+}
+.about .price li:nth-child(2n+2){
+  margin-right: 0px;
+}
+.about .price li:hover{
+  opacity: 1;
+}
+.about .price li .li-head{
+  font-size: 25px;
+  padding: 35px 0px;
+  background-color: #616161;
+  color: #fff;
+}
+.about .price li p{
+  font-size: 15px;
+  padding: 25px 0px;
+  border-bottom: 0.5px solid #ddd;
+}
+.about .price li .mix .number{
+  display: block;
+  font-size: 22px;
+}
+.about .price li .li-last{
+  padding: 35px 0px;
+  background-color: #f1f1f1;
+}
+.about .price li a{
+  padding: 15px 20px;
+  color: #000;
+  background-color: #ddd;
+  margin-top: 25px;
+  transition: 0.5s ease-in-out;
+  -moz-transition:0.5s ease-in-out;
+  -o-transition:0.5s ease-in-out;
+}
+.about .price li a:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+
+
+.project{
+  margin-left: 120px;
+  padding: 100px 0px;
+  background-color: #000;
+}
+.project h3{
+  margin-bottom: 25px;
+  font-weight: 400;
+  padding: 15px 0px;
+  font-size: 35px;
+  padding-right: 25px;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  display: inline-block;
+}
+.project li{
+  width: 49%;
+  float: left;
+  margin-right: 2%;
+  display: table;
+  margin-top: 0.5%;
+  margin-bottom: 0.5%;
+  overflow: hidden;
+}
+.project li:nth-child(2n+2){
+  margin-right: 0px;
+}
+.project li img{
+  transition: 0.5s ease-in-out;
+  -moz-transition:0.5s ease-in-out;
+  -o-transition:0.5s ease-in-out;
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+
+.contact{
+  margin-left: 120px;
+  padding: 100px 0px;
+  background-color: #000;
+}
+.contact h4{
+  margin-bottom: 25px;
+  font-weight: 400;
+  padding: 15px 0px;
+  font-size: 35px;
+  padding-right: 25px;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  display: inline-block;
+}
+.contact .details li{
+  text-align: left;
+  color: #fff;
+  display: block;
+  margin-bottom:25px;
+}
+.contact .details li i{
+  display: inline-block;
+  padding-right: 20px;
+  font-size: 30px;
+}
+.contact .details li p{
+  display: inline-block;
+  color: #717171;
+  font-size: 15px;
+}
+.form p{
+  color: #717171;
+  display: block;
+  text-align: left;
+  margin-bottom: 25px;
+  margin-top: 50px;
+}
+.form input{
+  width: 90%;
+  height: 50px;
+  margin-bottom: 25px;
+  font-size: 16px;
+  padding-left: 10px;
+}
+.form button{
+  padding: 12px 24px;
+  font-size: 18px;
+}
+
+.foot{
+  margin-left: 120px;
+  padding: 100px 0px;
+  background-color: #000;
+}
+.foot li{
+  float: left;
+  color: #717171;
+  font-size: 25px;
+  margin: 0px 5px;
+}
+.foot li i{
+  transition: 0.2s ease-in-out;
+  -moz-transition:0.2s ease-in-out;
+  -o-transition:0.2s ease-in-out;
+}
+.foot li i:hover{
+  color: #ddd;
+}
+.foot p{
+  color: #717171;
+  width: 100%;
+  float: left;
+  padding: 10px 0px;
+}
+
+
+
+
+
+
+
+/*---------------- responsive css --------------------*/
+/*---------------- responsive css --------------------*/
+/*---------------- responsive css --------------------*/
+
+@media (max-width: 1169px){
+  .wrap{
+  max-width: 990px;
+}
+
+}
+
+
+
+
+
+
+
+
+@media (max-width: 1023px){
+  .wrap{
+      max-width: 740px;
+  }
+  .home{
+    min-height: 175px;
+  }
+  .home h1 {
+    font-size: 50px;
+}
+.home .describe {
+  font-size: 12px;
+}
+.home h1{
+  margin-top: 50px;
+  padding: 100px 0px 0px 0px;
+}
+.home .describe{
+  padding: 0px 0px 50px 0px;
+}
+h2,h3,h4 {
+  font-size: 28px !important;
+}
+.about .abt-text{
+  font-size: 13px;
+}
+.about .heading{
+  font-size: 22px !important;
+}
+.about .download a{
+  font-size: 13px;
+}
+.about .overall li .number{
+  font-size: 20px;
+}
+.about .overall li .num-txt{
+  font-size: 13px;
+}
+.about .price li{
+  width: 70%;
+  margin-left: 15%;
+  margin-bottom: 25px;
+  opacity: 0.8;
+}
+.form button{
+  font-size: 15px;
+}
+}
+
+
+
+
+
+
+
+@media (max-width: 767px){
+  .wrap{
+      max-width: 460px;
+  }
+  .home,.about,.project,.contact,.foot{
+    margin-left: 0px;
+  }
+  .project li img{
+    display: table !important;
+  }
+  .project li {
+    width: 100%;
+    display: table;
+    margin-top: 0.5%;
+    margin-bottom: 0.5%;
+    overflow: hidden;
+  }
+  .home{
+    min-height: 0px;
+  }
+  .home h1{
+    margin-top: 50px;
+    padding: 100px 0px 0px 0px;
+  }
+  .home .describe{
+    padding: 0px 0px 50px 0px;
+  }
+.form input{
+  height: 35px;
+  font-size: 13px;
+}
+.home,.about,.project,.contact {
+  padding: 30px 0px;
+}
+.foot{
+  padding: 35px 0px;
+  font-size: 15px;
+}
+}
+
+
+
+
+
+
+
+
+
+@media (max-width: 479px){
+  .wrap{
+      max-width: 300px;
+  }
+  nav ul li a,
+nav ul li a:visited {
+  font-size: 10px;
+}
+.navigation p{
+  width: 50% !important;
+}
+.home h1{
+  font-size: 35px;
+  margin-top: 50px;
+  padding: 100px 0px 0px 0px;
+}
+.home .describe{
+  padding: 0px 0px 50px 0px;
+}
+.home{
+  min-height: 0px !important;
+}
+.home .describe{
+  font-size: 9px;
+}
+h2, h3, h4 {
+  font-size: 22px !important;
+}
+.about .abt-text {
+  font-size: 10px;
+}
+.about .price li {
+  width: 100%;
+  margin-left: 0px;
+}
+.about .skill li p{
+  font-size: 13px;
+}
+.about .skill li .white{
+  height: 18px;
+}
+.about .skill li .php,.about .skill li .photoshop,.about .skill li .design{
+  height: 18px;
+}
+.about .skill li p{
+  margin-bottom: 15px;
+}
+.about .overall li{
+  width: 60%;
+  float: none;
+  padding: 25px 0px;
+  margin-bottom: 0px;
+}
+.about .download{
+  display: table;
+    margin: 0 auto;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+.contact .details li p{
+  font-size: 13px;
+}
+.contact .details li i{
+  font-size: 20px;
+}
+.form button {
+  font-size: 13px;
+  display: table;
+  margin: 0 auto;
+}
+.home,.about,.project,.contact {
+  padding: 0px 0px;
+}
+.foot{
+  padding: 35px 0px;
+  font-size: 15px;
+}
+.foot i{
+  font-size: 13px;
+}
+}
